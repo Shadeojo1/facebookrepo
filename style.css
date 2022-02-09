@@ -1,0 +1,81 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    /* float: inline-start; */
+    /* margin-left: 10px; */
+    position: absolute;
+    /* margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px; */
+    background-color: #3b5998;
+    background-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    height: 80px;
+    clear: right;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header h1 {
+    float: left;
+    margin-right: 50px;
+    margin-left: -50px;
+}
+
+header input {
+    /* float: right; */
+    /* padding-left: 4px;
+    margin: 2px;
+    margin-top: 20px; */
+    border: 0px;
+    border-radius: 5px;
+    min-height: 30px;
+    max-height: 30px;
+    border-color: white;
+}
+
+input[type="button"] {
+    padding: 8px;
+    border: 2px;
+}
+
+.peopleNetwork {
+    /* float: inline-start; */
+    /* width: 25%;
+    height: 25%; */
+}
+
+img[src = "peopleNetwork.png"] {
+    float: left;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.leftDetails {
+    float: left;
+}
+
+.leftDetails pre {
+    float: inline-start;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left:40px;
+    /* margin-left: -200px; */
+}
+
+.mainDetails {
+    float: right;
+    
+}
+
+main {
+    margin-top: 80px;
+
+}
+
+
